@@ -1,5 +1,6 @@
 
-def input_number():    
+def get_numbers() -> list[int]:
+    
     input_lst = input().split()
     input_num = list(map(lambda x: int(x), input_lst))
     return input_num
@@ -17,7 +18,7 @@ def sorted_num(duplicated_num):
     return sorte_num
     
 
-input_num = input_number()  
+input_num = get_numbers()  
 duplicated_num = duplicate_remover(input_num)  
     
 numbers = sorted_num(duplicated_num)
