@@ -1,9 +1,14 @@
 
 def get_numbers() -> list[int]:
     
-    input_lst = input().split()
-    input_num = list(map(lambda x: int(x), input_lst))
-    return input_num
+    while True:
+        try:
+            input_lst = input("Enter numbers sparated by spase: ")
+            numbers = list(map(int, input_lst.split()))
+            return numbers
+        except ValueError:
+            print("numbers only!")
+    
     
 def duplicate_remover(input_num):
     duplicated_num = []
