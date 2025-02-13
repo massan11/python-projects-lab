@@ -17,11 +17,11 @@ This challenge is designed to review basic Python skills and ensure I have a str
 1. Navigate to this folder:  
    ```sh
    cd fundamental_challenge
-'''
+```
 2. Run the script:
-'''
+```
 python fundamental_challenge.py
-'''
+```
 3. Check output.txt for results.
 
 📈 What I Learned
@@ -30,7 +30,7 @@ Implementing type hints for better code readability.
 Writing clean, modular functions.
 
 📂 File Structure
-'''
+```
 
 📦 fundamental_challenge  
  ┣ 📜 fundamental_challenge.py  # Challenge script  
