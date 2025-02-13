@@ -9,12 +9,12 @@ This repository is part of my **Python Job Simulation**, where I simulate real-w
 
 ## **🗂️ Repository Structure**  
 
-📦 Python-Job-Simulation
-┣ 📂 fundamental_challenge # Python Fundamentals Challenge
-┃┣ 📜 fundamental_challenge.py
-┃┣ 📜 README.md
-┣ 📂 (Future project folders will be added here)
-┣ 📜 README.md # Main repo documentation
+📦 Python-Job-Simulation \n
+┣ 📂 fundamental_challenge # Python Fundamentals Challenge \n
+┃┣ 📜 fundamental_challenge.py \n
+┃┣ 📜 README.md \n 
+┣ 📂 (Future project folders will be added here) \n
+┣ 📜 README.md # Main repo documentation \n
 
 markdown
 Copy
