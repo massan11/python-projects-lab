@@ -9,16 +9,13 @@ This repository is part of my **Python Job Simulation**, where I simulate real-w
 
 ## **🗂️ Repository Structure**  
 
-📦 Python-Job-Simulation \n
-┣ 📂 fundamental_challenge # Python Fundamentals Challenge \n
-┃┣ 📜 fundamental_challenge.py \n
-┃┣ 📜 README.md \n 
-┣ 📂 (Future project folders will be added here) \n
-┣ 📜 README.md # Main repo documentation \n
+📦 Python-Job-Simulation .
+┣ 📂 fundamental_challenge # Python Fundamentals Challenge .
+┃┣ 📜 fundamental_challenge.py .
+┃┣ 📜 README.md .
+┣ 📂 (Future project folders will be added here) .
+┣ 📜 README.md # Main repo documentation .
 
-markdown
-Copy
-Edit
 
 ## **📌 Completed Challenges & Projects**  
 | Challenge/Project        | Description & Link |
@@ -34,7 +31,7 @@ Edit
    
 2. Navigate to any project folder and follow the specific instructions inside.
 
-📈 What I Hope to Achieve
+📈 What I Hope to Achieve.
 Strengthen Python fundamentals.
 Gain hands-on experience with real projects.
 Document my learning journey.
