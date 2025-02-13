@@ -8,14 +8,14 @@ This repository is part of my **Python Job Simulation**, where I simulate real-w
 ✅ Follow industry best practices (Git, Agile, documentation).  
 
 ## **🗂️ Repository Structure**  
-
+'''
 📦 Python-Job-Simulation .
 ┣ 📂 fundamental_challenge # Python Fundamentals Challenge .
 ┃┣ 📜 fundamental_challenge.py .
 ┃┣ 📜 README.md .
 ┣ 📂 (Future project folders will be added here) .
 ┣ 📜 README.md # Main repo documentation .
-
+'''
 
 ## **📌 Completed Challenges & Projects**  
 | Challenge/Project        | Description & Link |
@@ -28,10 +28,12 @@ This repository is part of my **Python Job Simulation**, where I simulate real-w
    ```sh
    git clone https://github.com/massan11/Python-Job-Simulation.git
    cd Python-Job-Simulation
-   
+
+'''  
 2. Navigate to any project folder and follow the specific instructions inside.
 
 📈 What I Hope to Achieve.
 Strengthen Python fundamentals.
 Gain hands-on experience with real projects.
 Document my learning journey.
+'''

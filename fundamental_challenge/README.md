@@ -17,20 +17,21 @@ This challenge is designed to review basic Python skills and ensure I have a str
 1. Navigate to this folder:  
    ```sh
    cd fundamental_challenge
-Run the script:
-sh
-Copy
-Edit
+'''
+2. Run the script:
+'''
 python fundamental_challenge.py
-Check output.txt for results.
+'''
+3. Check output.txt for results.
+
 📈 What I Learned
 Using list comprehensions efficiently.
 Implementing type hints for better code readability.
 Writing clean, modular functions.
+
 📂 File Structure
-bash
-Copy
-Edit
+'''
+
 📦 fundamental_challenge  
  ┣ 📜 fundamental_challenge.py  # Challenge script  
  ┣ 📜 README.md                 # Documentation  
