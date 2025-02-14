@@ -22,13 +22,13 @@ def save_to_file(numbers: list[int], filename: str = "output.txt") -> None:
     except Exception as e:
         print(f"Error: {e}")
 
-
-
-input_num = get_numbers()  
+def main():
+    input_num = get_numbers()  
+    numbers = process_numbers(input_num)
+    save_to_file(numbers)
     
-numbers = process_numbers(input_num)
-
-save_to_file(numbers)
+if __name__ == "__main__":
+    main()
 
 
 
