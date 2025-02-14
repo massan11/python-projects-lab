@@ -8,19 +8,9 @@ def get_numbers() -> list[int]:
             return numbers
         except ValueError:
             print("numbers only!")
-    
-    
-def duplicate_remover(numbers):
-    duplicated_num = []
-    for i in numbers:
-        if i not in duplicated_num:
-            duplicated_num.append(i)
-    return duplicated_num
-    
-
-def sorted_num(duplicated_num):
-    sorte_num = sorted(duplicated_num, reverse=True)
-    return sorte_num
+            
+def process_numbers(numbers: list[int]) -> list[int]:
+    return sorted(list(set(numbers)), reverse = True)
 
 def save_to_file(numbers: list[int], filename: str = "output.txt") -> None:
     try:
@@ -33,9 +23,8 @@ def save_to_file(numbers: list[int], filename: str = "output.txt") -> None:
 
 
 input_num = get_numbers()  
-duplicated_num = duplicate_remover(input_num)  
     
-numbers = sorted_num(duplicated_num)
+numbers = process_numbers(input_num)
 
 save_to_file(numbers)
 
