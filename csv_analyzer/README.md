@@ -25,9 +25,10 @@ python csv_analyzer.py sample_data.csv
 Using pandas for data analysis.
 Handling missing values in datasets.
 Implementing command-line arguments with argparse.
-```
+
 📂 File Structure
 📦 csv_analyzer  
  ┣ 📜 csv_analyzer.py  # Main script  
  ┣ 📜 README.md        # Documentation  
  ┣ 📜 sample_data.csv  # Example dataset
+```
