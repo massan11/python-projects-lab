@@ -9,19 +9,23 @@ This repository is part of my **Python Job Simulation**, where I simulate real-w
 
 ## **🗂️ Repository Structure**  
 ```
-📦 Python-Job-Simulation .
-┣ 📂 fundamental_challenge # Python Fundamentals Challenge .
-┃┣ 📜 fundamental_challenge.py .
-┃┣ 📜 README.md .
-┣ 📂 (Future project folders will be added here) .
-┣ 📜 README.md # Main repo documentation .
+📦 Python-Job-Simulation
+┣ 📂 fundamental_challenge # Python Fundamentals Challenge
+┃ ┣ 📜 fundamental_challenge.py
+┃ ┣ 📜 README.md
+┣ 📂 csv_analyzer # CSV Data Analyzer
+┃ ┣ 📜 csv_analyzer.py
+┃ ┣ 📜 README.md
+┃ ┣ 📜 sample_data.csv
+┣ 📜 README.md # Main repo documentation
 ```
 
 ## **📌 Completed Challenges & Projects**  
-| Challenge/Project        | Description & Link |
-|--------------------------|--------------------|
-| ✅ **Fundamental Challenge** | [📂 View](fundamental_challenge/) |
-| 🔄 **(Next Challenge)** | _(To be added)_ |
+| Challenge/Project | Description & Link |  
+|------------------|------------------|  
+| ✅ **Fundamental Challenge** | [📂 View](fundamental_challenge/) |  
+| ✅ **CSV Data Analyzer** | [📂 View](csv_analyzer/) |  
+| 🔄 **(Next Project TBD)** | _(To be added)_ |  
 
 ## **🚀 How to Use This Repository**  
 1. Clone the repository:  
@@ -37,3 +41,5 @@ Strengthen Python fundamentals.
 Gain hands-on experience with real projects.
 Document my learning journey.
 ```
+## 🔗 Progress Tracker (Google Doc)  
+📄 **Follow my journey here:** [Python Job Simulation Tracker](https://docs.google.com/document/d/1ibdzxZcp_2Zr_hRY8pE7hnPeJvo6Spf5y7FKEfnjTv4/edit?usp=sharing)  
