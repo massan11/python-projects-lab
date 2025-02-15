@@ -37,6 +37,12 @@ def main():
     basic_statistics(df)
     summarize_numeric_columns(df)
     
+    save_file = input("\n💾 Do you want to save the processed data? (y/n): ")
+    if save_file.lower() == "y":
+        output_filename = "processed_" + file_path
+        df.to_csv(output_filename, index=False)
+        print(f"✅ Processed data saved as {output_filename}")
+    
 if __name__ == "__main__":
     main()
     
