@@ -1,5 +1,12 @@
 import pandas as pd
+import argparse
 
+def get_file_path() -> str:
+    """Get the file path from the command line."""
+    parser = argparse.ArgumentParser(description="Analyze a csv file")
+    parser.add_argument("file_path", type=str, help="The path to the csv file")
+    args = parser.parse_args()
+    return args.file_path
 
 def read_csv(file_path: str) -> pd.DataFrame:
     """Read a csv file and return a dataframe."""
@@ -10,30 +17,30 @@ def read_csv(file_path: str) -> pd.DataFrame:
         return "File not found"
     except Exception as e:
         return f"Error: {e}"
-
-def describe_data(df: pd.DataFrame) -> pd.DataFrame:
-    """Return a statistical summary of the dataframe."""
-    analyz = df.describe()
-    return analyz
-
-def write_to_csv(df: pd.DataFrame, file_path: str) -> None:
-    """Write a dataframe to a csv file"""
-    try:
-        df.to_csv(file_path, index=False)
-        print(f"Data saved in {file_path}")
-    except Exception as e:
-        print(f"Error: {e}")
+    
+def basic_statistics(df: pd.DataFrame) -> None:
+    """Print basic statistics of the dataset."""
+    print("\n📊 **Dataset Overview**")
+    print(f"Total Rows: {df.shape[0]}")
+    print(f"Total Columns: {df.shape[1]}")
+    print("\n📝 Column Names and Types:")
+    print(df.dtypes)
+    
+def summarize_numeric_columns(df: pd.DataFrame) -> None:
+    """Print summary statistics of numeric columns."""
+    print("\n📈 **Numeric Columns Summary:**")
+    print(df.describe())
 
 def main():
-    """Read a csv file, analyze the data and save the results in a new csv file."""
-    file_path = "data_1.csv"
+    file_path = get_file_path()
     df = read_csv(file_path)
-    analyz = describe_data(df)
-    print (analyz)
-    write_to_csv(analyz, "data_2.csv")
+    basic_statistics(df)
+    summarize_numeric_columns(df)
     
 if __name__ == "__main__":
     main()
+    
+
     
 
 
