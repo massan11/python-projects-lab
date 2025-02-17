@@ -1,4 +1,4 @@
-```📌 Project Overview
+📌 Project Overview
 A CLI tool is a command-line application that performs useful tasks. You’ll build one to simulate real-world software development, improve Python skills, and practice argument parsing (argparse).
 
 ✅ Project Options (Choose One)
@@ -17,4 +17,4 @@ Automatically move them into categorized folders.
 4️⃣ Weather CLI App ☁️
 
 Fetch real-time weather using an API.
-Display temperature, humidity, and weather conditions.```
+Display temperature, humidity, and weather conditions.
