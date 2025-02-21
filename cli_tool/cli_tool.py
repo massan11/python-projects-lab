@@ -1,10 +1,11 @@
 import argparse
 import sys
+from operations import file_organizer
 
 
 def main():
     parser = argparse.ArgumentParser(description="CLI Tool for various operations.")
-    parser.add_argument("--task", required=True, choices=["file_organizer", "text_manipulation", "calculator", "todo_list", "password_generator"],
+    parser.add_argument("--task", required=True, choices=["file_organizer"],
                         help="Select the task to perform.")
     
     parser.add_argument("--folder", type=str, help="Folder path to organization.")
