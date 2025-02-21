@@ -51,10 +51,7 @@ def to_uppercase(file_path: str) -> None:
         
 def process_text(file_path: str, action: str) -> None:
     
-    if not os.path.exists(file_path):
-        print(f"Error: File {file_path} not found.")
-        sys.exit(1)
-        
+    
     if action == "count_words":
         print(f"Word count: {count_words(file_path)}")
     elif action == "remove_duplicates":
