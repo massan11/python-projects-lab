@@ -11,8 +11,7 @@ file_categories = {
 }
 
 def organize_files(folder_path: str) -> None:
-'''Organize files in a folder based on their extensions.'''  
-
+    ''' Organize files in a folder based on their categories.'''
     
     if not os.path.exists(folder_path):
         print(f"Folder path {folder_path} does not exist.")
