@@ -11,7 +11,8 @@ file_categories = {
 }
 
 def organize_files(folder_path: str) -> None:
-    
+'''Organize files in a folder based on their extensions.'''  
+
     
     if not os.path.exists(folder_path):
         print(f"Folder path {folder_path} does not exist.")
@@ -20,20 +21,24 @@ def organize_files(folder_path: str) -> None:
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
         
+        # Skip if it is a folder
         if os.path.isdir(file_path):
             continue
         
         file_extension = os.path.splitext(file_path)[1].lower()
-        destination_folder = "Others"
+        destination_folder = "Others" #Default folder
         
+        # Find the category for the file
         for category, extensions in file_categories.items():
             if file_extension in extensions:
                 destination_folder = category
                 break
-            
+        
+        # Create the category folder if it does not exist    
         category_folder_path = os.path.join(folder_path, destination_folder)
         os.makedirs(category_folder_path, exist_ok=True)
         
+        # Move the file to the category folder
         try:
             shutil.move(file_path, os.path.join(category_folder_path, filename))
             print(f"Moved {filename} to {destination_folder}")
