@@ -9,7 +9,7 @@ def main():
     '''
     Main function to parse the command line arguments and call the respective functions.'''
     parser = argparse.ArgumentParser(description="CLI Tool for various operations.")
-    parser.add_argument("--task", required=True, choices=["file_organizer", "text_manipulation", "calendar"],
+    parser.add_argument("--task", required=True, choices=["file_organizer", "text_manipulation", "calculator"],
                         help="Select the task to perform.")
     
     parser.add_argument("--folder", type=str, help="Folder path to organization.")
