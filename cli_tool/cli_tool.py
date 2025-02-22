@@ -34,17 +34,20 @@ def main():
                 print("Error: --file and --action arguments are required for text_manipulation")
                 sys.exit(1)
             text_manipulation.process_text(args.file, args.action)
+            
         elif args.task == "calculator":
             if not args.operation or args.num1 is None or args.num2 is None:
                 print("Error: --operation, --num1, and --num2 arguments are required for calculator")
                 sys.exit(1)
             result = calculator.calculate(args.operation, args.num1, args.num2)
             print(f"Result: {result}")
-        elif args.task == "to_do":
+            
+        elif args.task == "todo_list":
             if not args.action or not args.task_text:
                 print("Error: --action and --task_text arguments are required for to_do")
                 sys.exit(1)
             todo_list.manage_tasks(args.action, args.task_text)
+            
         else:
             print("Invalid task. use --help for more information.")
     
