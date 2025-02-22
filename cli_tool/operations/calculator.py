@@ -1,7 +1,7 @@
-import sys
+import sys 
 
 def calculate(operation: str, num1: float, num2: float) -> float:
-    
+    '''Perform basic arithmetic operations on two numbers.'''
     try:
         if operation == "add":
             return num1 + num2
