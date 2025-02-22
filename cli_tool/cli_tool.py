@@ -6,6 +6,8 @@ from operations import calculator
 
 
 def main():
+    '''
+    Main function to parse the command line arguments and call the respective functions.'''
     parser = argparse.ArgumentParser(description="CLI Tool for various operations.")
     parser.add_argument("--task", required=True, choices=["file_organizer", "text_manipulation", "calendar"],
                         help="Select the task to perform.")
