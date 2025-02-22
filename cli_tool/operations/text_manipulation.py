@@ -2,6 +2,7 @@ import os
 import sys
 
 def count_words(file_path: str) -> int:
+    '''Count the number of words in a text file.'''
     
     try:
         with open(file_path, "r", encoding="utf-8") as file:
@@ -15,6 +16,7 @@ def count_words(file_path: str) -> int:
         sys.exit(1)
 
 def remove_duplicates(file_path: str) -> None:
+    '''Remove duplicate lines from a text file.'''
     
     try:
         with open(file_path, "r", encoding="utf-8") as file:
@@ -33,6 +35,7 @@ def remove_duplicates(file_path: str) -> None:
         sys.exit(1)
         
 def to_uppercase(file_path: str) -> None:
+    '''Convert the text in a file to uppercase.'''
     
     try:
         with open(file_path, "r", encoding="utf-8") as file:
@@ -50,6 +53,7 @@ def to_uppercase(file_path: str) -> None:
         sys.exit(1)
         
 def process_text(file_path: str, action: str) -> None:
+    '''Process the text file based on the action provided.'''
     
     
     if action == "count_words":
