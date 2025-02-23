@@ -4,12 +4,13 @@ from operations import file_organizer
 from operations import text_manipulation
 from operations import calculator
 from operations import todo_list
+from operations import password_generator
 
 def main():
     '''
     Main function to parse the command line arguments and call the respective functions.'''
     parser = argparse.ArgumentParser(description="CLI Tool for various operations.")
-    parser.add_argument("--task", required=True, choices=["file_organizer", "text_manipulation", "calculator", "todo_list"],
+    parser.add_argument("--task", required=True, choices=["file_organizer", "text_manipulation", "calculator", "todo_list", "password_generator"],
                         help="Select the task to perform.")
     
     parser.add_argument("--folder", type=str, help="Folder path to organization.")
@@ -19,6 +20,7 @@ def main():
     parser.add_argument("--num1", type=float, help="First number for calculator.")
     parser.add_argument("--num2", type=float, help="Second number for calculator.")
     parser.add_argument("--task_text", type=str, help="Task text for to-do list.")
+    parser.add_argument("--length", type=int, help="Password length.")
     
     args = parser.parse_args()
     
@@ -47,6 +49,12 @@ def main():
                 print("Error: --action and --task_text arguments are required for to_do")
                 sys.exit(1)
             todo_list.manage_tasks(args.action, args.task_text)
+            
+        elif args.task == "password_generator":
+            if not args.length:
+                print("Error: --length argument is required for password_generator")
+                sys.exit(1)
+            print(f"Generated password: {password_generator.generate_password(args.length)}")
             
         else:
             print("Invalid task. use --help for more information.")
