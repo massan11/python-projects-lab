@@ -18,11 +18,11 @@ It provides multiple functionalities, including:
 git clone https://github.com/massan11/Python-Job-Simulation.git
 cd Python-Job-Simulation/cli_tool
 
-### **2️⃣ Run the CLI Tool**
+2️⃣ Run the CLI Tool
 ```sh
 To see available options, run:
 python cli_tool.py --help
-**Output:**
+Output:
 usage: cli_tool.py --task {file_organizer,text_manipulation,calculator,todo_list,password_generator} [options]
 📌 Available Tasks & Usage
 1️⃣ File Organizer
