@@ -17,14 +17,24 @@ This repository is part of my **Python Job Simulation**, where I simulate real-w
 ┃ ┣ 📜 csv_analyzer.py
 ┃ ┣ 📜 README.md
 ┃ ┣ 📜 sample_data.csv
+┣ 📂 cli_tool # CLI Utility Tool ✅ (New)
+┃ ┣ 📜 cli_tool.py
+┃ ┣ 📂 operations/
+┃ ┃ ┣ 📜 file_organizer.py
+┃ ┃ ┣ 📜 text_manipulation.py
+┃ ┃ ┣ 📜 calculator.py
+┃ ┃ ┣ 📜 todo_list.py
+┃ ┃ ┣ 📜 password_generator.py
+┃ ┣ 📜 README.md
 ┣ 📜 README.md # Main repo documentation
 ```
 
 ## **📌 Completed Challenges & Projects**  
-| Challenge/Project | Description & Link |  
-|------------------|------------------|  
+| Challenge/Project         | Description & Link |  
+|---------------------------|------------------|  
 | ✅ **Fundamental Challenge** | [📂 View](fundamental_challenge/) |  
 | ✅ **CSV Data Analyzer** | [📂 View](csv_analyzer/) |  
+| ✅ **CLI Tool** | [📂 View](cli_tool/) |  
 | 🔄 **(Next Project TBD)** | _(To be added)_ |  
 
 ## **🚀 How to Use This Repository**  
