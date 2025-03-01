@@ -23,8 +23,8 @@ def load_config(config_path = "config.yaml") -> dict:
 def execute_task(task_name, config):
     if task_name == "file_operations":
         file_operations.organize_files(config.get("file_operations", {}))
-    elif task_name == "data_processing":
-        data_processing.process_data(config.get("data_processing", {}))
+    # elif task_name == "data_processing":
+    #     data_processing.process_data(config.get("data_processing", {}))
     else:
         print(f"Task '{task_name}' not found.")
         logging.warning(f"Unknown task: {task_name}")
