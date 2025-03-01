@@ -3,7 +3,7 @@ import shutil
 import logging
 
 
-def organiz_file(config) -> None:
+def organize_files(config) -> None:
     source_folder = config.get("source_folder")
     destination_folders = config.get("destination_folders", {})
     
