@@ -1,0 +1,11 @@
+file_operations:
+  source_folder: "C:/Users/YourName/Desktop"
+  destination_folders:
+    images: "C:/Users/YourName/Documents/Sorted/Images"
+    documents: "C:/Users/YourName/Documents/Sorted/Documents"
+    others: "C:/Users/YourName/Documents/Sorted/Others"
+
+data_processing:
+  input_file: "data/sample.csv"
+  output_file: "data/processed.csv"
+  remove_duplicates: true
