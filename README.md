@@ -1,4 +1,4 @@
-# **Python Projects Lab **  
+# **Python Projects Lab**  
 
 ## **📌 About This Repository**  
 This repository is part of my **Python Projects Lab**, where I simulate real-world work challenges to:  
