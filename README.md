@@ -1,7 +1,7 @@
-# **Python Job Simulation 🚀**  
+# **Python Projects Lab 🚀**  
 
 ## **📌 About This Repository**  
-This repository is part of my **Python Job Simulation**, where I simulate real-world work challenges to:  
+This repository is part of my **Python Projects Lab**, where I simulate real-world work challenges to:  
 ✅ Reinforce my Python knowledge.  
 ✅ Work on real-world projects.  
 ✅ Build a strong GitHub portfolio.  
@@ -9,7 +9,7 @@ This repository is part of my **Python Job Simulation**, where I simulate real-w
 
 ## **🗂️ Repository Structure**  
 ```
-📦 Python-Job-Simulation
+📦 python-projects-lab
 ┣ 📂 fundamental_challenge # Python Fundamentals Challenge
 ┃ ┣ 📜 fundamental_challenge.py
 ┃ ┣ 📜 README.md
@@ -40,8 +40,8 @@ This repository is part of my **Python Job Simulation**, where I simulate real-w
 ## **🚀 How to Use This Repository**  
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/massan11/Python-Job-Simulation.git
-   cd Python-Job-Simulation
+   git clone https://github.com/massan11/python-projects-lab.git
+   cd python-projects-lab
 
 ```
 2. Navigate to any project folder and follow the specific instructions inside.
@@ -52,4 +52,4 @@ Gain hands-on experience with real projects.
 Document my learning journey.
 ```
 ## 🔗 Progress Tracker (Google Doc)  
-📄 **Follow my journey here:** [Python Job Simulation Tracker](https://docs.google.com/document/d/1ibdzxZcp_2Zr_hRY8pE7hnPeJvo6Spf5y7FKEfnjTv4/edit?usp=sharing)  
+📄 **Follow my journey here:** [Python Projects Lab](https://docs.google.com/document/d/1ibdzxZcp_2Zr_hRY8pE7hnPeJvo6Spf5y7FKEfnjTv4/edit?usp=sharing)  
